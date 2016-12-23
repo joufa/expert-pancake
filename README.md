@@ -4,11 +4,11 @@ This project will create an Express server instance and serve a web page. From t
 save it.
 
 Techniques and depencies used:
-..* Node.js
-..* Express
-..* HTML5/CSS/JS 
-..* body-parser
-..* multer
+- Node.js
+- Express
+- HTML5/CSS/JS 
+- body-parser
+- multer
 
 ## Installation
 
