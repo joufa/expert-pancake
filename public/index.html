@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+      <meta charset="utf-8">
+      <title>Lisää tiedosto</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="js/script.js" ></script>
+</head>
+
+<body>
+      <header>
+            <h2>Tiedoston lähetys</h2>
+      </header>
+      <div class="container">
+            <div class="container2">
+                  <h2>Jonkinlainen headerteksti</h2>
+                  <div class="uploadForm">
+                        <form id="upload_form" enctype="multipart/form-data" action="/upload" method="post">
+                              <div>
+                                    <label for="file">Laita tiedosto</label>
+                              </div>
+                              <div>
+                                    <input type="file" name="upload" id="fileupload" onchange="fileSelected(this.files)" />
+                              </div>
+                              <div>
+                                    <input type="submit" value="Lähetä" id="sendButton" disabled="true" />
+                              </div>
+                              <div id="tempmsg"></div>
+                              <div id="fileinfo">
+                                    <div id="filename"></div>
+                                    <div id="filesize"></div>
+                              
+                              </div>
+                        </form>
+                  </div>
+            </div>
+
+      </div>
+</body>
+
+</html>
